@@ -65,7 +65,7 @@ Type=simple
 ExecStart $HOME/start.sh
 Restart=always
 [Install]
-WantedBy=default.target" | tee $HOME/config/systemd/user/piwall.service
+WantedBy=default.target" | tee $HOME/.config/systemd/user/piwall.service
 
 systemctl daemon-reload
 systemctl --user enable piwall.service
