@@ -29,8 +29,11 @@ if [[ $dns == "" ]]; then
 fi
 
 echo "configuring piwall"
-echo "piwall file to dl: "
+echo "piwall file to dl [from repo]: "
 read config
+if [[$config == ""]]; then
+  config="https://raw.githubusercontent.com/infinitebash/piwall-config/main/.piwall"
+fi
 wget $config -O ~/.piwall
 
 echo "[tile]
