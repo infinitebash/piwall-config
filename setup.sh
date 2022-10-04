@@ -55,7 +55,7 @@ wget http://dl.piwall.co.uk/pwomxplayer_20130815_armhf.deb
 sudo dpkg -i pwlibs1_1.1_armhf.deb
 sudo dpkg -i pwomxplayer_20130815_armhf.deb
 
-echo "pwomxplayer -A udp://239.0.1.23:1234?buffer_size=1200000B" | tee start.sh
+echo "pwomxplayer -A udp://239.0.1.23:1234?buffer_size=1200000B &" | tee start.sh
 mkdir -p $HOME/.config/systemd/user
 echo "[Unit]
 Description=Start piwall
