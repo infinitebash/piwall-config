@@ -4,63 +4,63 @@ height=6480
 x=0
 y=0
 
-[main_tile1]
+[piwall1]
 wall=main_wall
 width=3840
 height=2160
 x=0
 y=0
 
-[main_tile2]
+[piwall2]
 wall=main_wall
 width=3840
 height=2160
 x=3840
 y=0
 
-[main_tile3]
+[piwall3]
 wall=main_wall
 width=3840
 height=2160
 x=7680
 y=0
 
-[main_tile4]
+[piwall4]
 wall=main_wall
 width=3840
 height=2160
 x=0
 y=2160
 
-[main_tile5]
+[piwall5]
 wall=main_wall
 width=3840
 height=2160
 x=3840
 y=2160
 
-[main_tile6]
+[piwall6]
 wall=main_wall
 width=3840
 height=2160
 x=7680
 y=2160
 
-[main_tile7]
+[piwall7]
 wall=main_wall
 width=3840
 height=2160
 x=0
 y=4320
 
-[main_tile8]
+[piwall8]
 wall=main_wall
 width=3840
 height=2160
 x=3840
 y=4320
 
-[main_tile9]
+[piwall9]
 wall=main_wall
 width=3840
 height=2160
@@ -68,13 +68,13 @@ x=7680
 y=4320
 
 [main_config]
-pi1=main_tile1
-pi2=main_tile2
-pi3=main_tile3
-pi4=main_tile4
-pi5=main_tile5
-pi6=main_tile6
-pi7=main_tile7
-pi8=main_tile8
-pi9=main_tile9
+pi1=piwall1
+pi2=piwall2
+pi3=piwall3
+pi4=piwall4
+pi5=piwall5
+pi6=piwall6
+pi7=piwall7
+pi8=piwall8
+pi9=piwall9
 
