@@ -62,14 +62,22 @@ Description=Start piwall
 After=network.target
 [Service]
 Type=simple
-ExecStart $HOME/start.sh
+ExecStart=$HOME/start.sh
 Restart=always
 [Install]
 WantedBy=default.target" | tee $HOME/.config/systemd/user/piwall.service
 
-systemctl daemon-reload
+systemctl --user daemon-reload
 systemctl --user enable piwall.service
 
 echo "done, rebooting in 5 seconds"
-wait 5
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
 sudo reboot
